@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+    background:#222;
+}
+
+header h1{
+    font-size:40px;
+    color:#ff4d00;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+
+.membership{
+    width:450px;
+    margin:40px auto;
+    background:#1c1c1c;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px black;
+}
+
+
+.membership h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#00ff99;
+}
+
+
+form label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+
+input, select, textarea{
+
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+}
+
+
+textarea{
+    height:80px;
+    resize:none;
+}
+
+
+button{
+
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#ec7328;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+button:hover{
+    background:white;
+}
